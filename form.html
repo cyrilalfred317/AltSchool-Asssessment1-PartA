@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>AltSchool Application Form</title>
+  </head>
+
+  <body>
+    <!-- Global Navigation -->
+    <header>
+      <nav aria-label="Main navigation">
+        <a href="index.html">About Me</a>
+        <a href="form.html">Application Form</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Sign-Up Introduction -->
+      <section>
+        <h1>Sign up</h1>
+
+        <p>Create an account to get started on your learning journey</p>
+
+        <p>
+          <strong>Important:</strong>
+          Your legal name as it appears on your official documents should be
+          used during registration, as this will appear on your certificate.
+        </p>
+      </section>
+
+      <!-- Application Form -->
+      <section>
+        <form>
+          <!-- Email Field -->
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="john.doe@example.com"
+              required
+            />
+          </div>
+          <p></p>
+
+          <!-- Personal Information Fields -->
+          <div>
+            <label for="first-name">First name</label>
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              placeholder="John"
+              required
+            />
+          </div>
+          <p></p>
+
+          <div>
+            <label for="last-name">Last name</label>
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              placeholder="Doe"
+              required
+            />
+          </div>
+          <p></p>
+
+          <div>
+            <label for="phone-number">Phone number</label>
+            <input
+              type="tel"
+              id="phone-number"
+              name="phone-number"
+              placeholder="+1234567890"
+              required
+            />
+          </div>
+          <p></p>
+
+          <!-- Password Field -->
+          <div>
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="*********"
+              required
+            />
+          </div>
+
+          <!-- Terms and Privacy Notice -->
+          <p>
+            By clicking Create account, I agree to the
+            <a href="#">Terms of Use</a>
+            and acknowledge that I have read the
+            <a href="#">Privacy Policy</a>.
+          </p>
+
+          <button type="submit">Create account</button>
+
+          <!-- Alternative Sign-In Option -->
+          <p>OR</p>
+
+          <button type="button">Login with Google</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Page Footer -->
+    <p></p>
+    <footer>
+      <address>Awka, Anambra State, Nigeria</address>
+
+      <p>&copy; 2026 Cyril Alfred Nwachukwu. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
